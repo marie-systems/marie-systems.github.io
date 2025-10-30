@@ -1,0 +1,77 @@
+/* Add a black background color to the top navigation */
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("/assets/fonts/ms_sans_serif.woff") format("woff");
+  src: url("/assets/fonts/ms_sans_serif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("/assets/fonts/ms_sans_serif_bold.woff") format("woff");
+  src: url("/assets/fonts/ms_sans_serif_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #533B4D;
+  font-family: "Tahoma";
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  color: #FFDFE9;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Demi', sans-serif;
+  color: #F1E7E7;
+  font-size: 26px;
+}
+
+.topnav {
+  font-family: 'Pixelated MS Sans Serif', sans-serif;
+  -webkit-font-smoothing: none;
+  align-items: center;
+  background-color: #f6e4f4;
+  overflow: hidden;
+}
+
+.topnav a {
+  display: flex;
+  align-items: center;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  display: flex;
+  align-items: center;
+  background-color: #FFDFE9;
+  color: black;
+}
+
+.topnav a.active {
+  display: flex;
+  align-items: center;
+  background-color: #FFC5D3;
+  color: black;
+}
+
+#icon  {
+  float: left;    
+  margin: 0 15px 0 0;
+}
+
+div.main {
+  top: 100px;
+  left: 50px;
+}
