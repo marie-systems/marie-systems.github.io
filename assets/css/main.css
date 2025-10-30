@@ -28,9 +28,15 @@ a {
 }
 
 h1 {
-  font-family: 'Franklin Gothic Demi', sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
   color: #F1E7E7;
   font-size: 26px;
+}
+
+h1.header {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  color: #F1E7E7;
+  font-size: 40px;
 }
 
 .topnav {
@@ -71,7 +77,8 @@ h1 {
   margin: 0 15px 0 0;
 }
 
-div.main {
-  top: 100px;
-  left: 50px;
+.main {
+  position: absolute;
+  top: 65px;
+  left: 45px;
 }
