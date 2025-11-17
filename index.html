@@ -1,47 +1,90 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="/assets/css/home.css">
-        <title>home :: marie.systems</title>
-    </head>
-    <body>
-        <div class="topnav">
-            <a class="active" href="/"><img src="/assets/img/common/topnav/home.png" id="icon"></img>home</a>
-            <a href="/guides"><img src="/assets/img/common/topnav/guides.png" id="icon"></img>guides</a>
-            <a href="/download-center"><img src="/assets/img/common/topnav/download-center.png" id="icon"></img>download center</a>
-        </div>
-        <div class="main">
-            <h1 class="header"><img src="/assets/img/home/header.png" id="icon">welcome!</h1>
-        </div>
-        <div class="about">
-            <h1><img src="/assets/img/home/about.png" id="icon">about me</h1>
-            <p>
-                hello everyone! i appreciate that you took your time to take a look at my website!<br><br>
-                my name is marie, i'm a 16 year old puppygirl from italy who's into a lot of things (mainly tech, with a sprinkle of gaming)<br><br>
-                i stream my dev work on twitch from time to time and upload the highlights on youtube.<br><br>
-            </p>
-        </div>
-        <div class="contact">
-            <h1><img src="/assets/img/home/contact.png" id="icon">my socials</h1>
-            <p>
-                <b>twitch: </b><a href="https://twitch.tv/marie_systems">marie_systems</a><br>
-            </p>
-            <p>
-                <b>youtube: </b><a href="https://youtube.com/@marie.systems">marie!</a><br>
-            </p>
-            <p>
-                <b>discord: </b>your best bet is my <a href="https://discord.gg/Sc78eEjxxc">discord server</a><br>
-            </p>
-            <p>
-                <b>e-mail: </b><a href="mailto:me@marie.systems">me@marie.systems</a><br><br>
-            </p>
-        </div>
-        <div class="projects">
-            <h1><img src="/assets/img/home/projects.png" id="icon">my projects</h1>
-            <p>
-                <a href="https://github.com/marie-systems/win7-sp2">Windows 7 Service Pack 2</a> - an unofficial enhancement project for windows 7.
-            </p>
-        </div>
-    </body>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" 
+        content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+        minimum-scale=1,initial-scale=1">
+
+    <script src=
+        "https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+    <script src=
+        "https://unpkg.com/jquery.terminal@2.45.2/js/jquery.terminal.min.js">
+    </script>
+
+    <link rel="stylesheet" href=
+    "https://unpkg.com/jquery.terminal@2.45.2/css/jquery.terminal.min.css" />
+
+    <style type="text/css">
+        .terminal {
+            background-color: #533B4D !important; /* Dark background */
+        }
+        .cmd {
+            font-weight: bold;  
+            color: #ffd1dc;
+        }
+
+        .terminal,
+        span {
+            --size: 1.4;
+        }
+    </style>
+
+    <title>marie's website</title>
+</head>
+
+<body>
+    <script>
+        $('body').terminal({
+            about: function () {
+                this.echo('\nhello, my name is '
+                + '[[b;#ffd1dc;#533B4D]marie]' + '!'
+                + ' (she/her)\n\n'
+                + "i'm a 16 year old nerd who spends most of her days sleeping.\n\n"
+                + "when i'm not sleeping, i code and make content (sometimes)\n\n"
+                + "this website is powered by blood, sweat, tears, github pages and jqueryterminal\n"
+            );
+            },
+            specs: function () {
+                this.echo('this command will be added soon!\n');
+            },
+            socials: function () {
+                this.echo('this command will be added soon!\n');
+            },
+            projects: function () {
+                this.echo('this command will be added soon!\n');
+            },
+            help: function () {
+                this.echo('\n[[b;#ffd1dc;#533B4D]help]' + ' - command cheatsheet\n'
+                + '[[b;#ffd1dc;#533B4D]about]' + ' - about me\n'
+                + '[[b;#ffd1dc;#533B4D]socials]' + ' - my socials\n'
+                + '[[b;#ffd1dc;#533B4D]specs]' + ' - my systems\n'
+                + '[[b;#ffd1dc;#533B4D]projects]' + ' - my projects\n'
+                + '[[b;#ffd1dc;#533B4D]clear]' + ' - clear command output and history\n'
+            );
+            },
+        }, {
+            greetings: '[[b;#ffd1dc;#533B4D]⠤⠤⠤⠤⠤⠤⢤⣄⣀⣀⡀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⠤⠶⠶⠶⠦⠤⠤⠤⠤⠤⢤⣤⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⢀⠄⢂⣠⣭⣭⣕⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⠀⠀⠀⠤⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⢀⠜⣳⣾⡿⠛⣿⣿⣿⣦⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣍⣀⣦⠦⠄⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠠⣄⣽⣿⠋⠀⡰⢿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡿⠛⠛⡿⠿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣁⣂⣤⡄⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⢳⣶⣼⣿⠃⠀⢀⠧⠤⢜⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠟⠁⠀⠀⠀⡇⠀⣀⡈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠁⠐⠀⣀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠙⠻⣿⠀⠀⠀⠀⠀⠀⢹⣿⣿⡝⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡿⠋⠀⠀⠀⠀⠠⠃⠁⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⡿⠋⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠙⡄⠀⠀⠀⠀⠀⢸⣿⣿⡃⢼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⡏⠉⠉⠻⣿⡿⠋⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⢰⠀⠀⠰⡒⠊⠻⠿⠋⠐⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⠸⣇⡀⠀⠑⢄⠀⠀⠀⡠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢖⠠⠤⠤⠔⠙⠻⠿⠋⠱⡑⢄⠀⢠⠟⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⠀⠀⠈⠉⠒⠒⠻⠶⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠡⢀⡵⠃⠀⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠦⣀⠀⠀⠀⠀⠀⢀⣤⡟⠉⠀⠀⠀⠀⠀⠀⠀]\n'
+            + '[[b;#ffd1dc;#533B4D]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠙⠛⠓⠒⠲⠿⢍⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀]\n\n'
+                + '[[b;#ffd1dc;#533B4D]welcome to my website!]\n'
+                + 'type help to get started!\n'
+        });
+    </script>
+</body>
+
 </html>
